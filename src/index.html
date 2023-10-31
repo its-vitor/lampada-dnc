@@ -12,10 +12,14 @@
         <h1>Lampada</h1>
     </header>
     <section>
-        <div>
-            <img src="images/off.svg" alt="">
+        <div class="label">
+            <img src="images/off.svg" id="lampada" alt="">
+            <div class="buttons">
+                <input value="Ligar" id="lit" onclick="lightUp()" type="button">
+                <input value="Desligar" id="off" onclick="turnOff()" type="button">
+            </div>
         </div>
-    
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
